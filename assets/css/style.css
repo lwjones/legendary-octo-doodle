@@ -83,4 +83,47 @@ section {
   background-size: cover;
   background-position: center;
   height: 600px;
+  position: relative;
+}
+
+.hero-form {
+  color: #024e76;
+  background-color: #fce138;
+  border: 3px solid #024e76;
+  width: 500px;
+  padding: 20px;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+}
+
+.hero-form h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.hero-form label {
+  margin: 0 5px;
+}
+
+.hero-form button {
+  color: #fce138;
+  font-size: 16px;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
 }
